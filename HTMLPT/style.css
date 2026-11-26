@@ -1,0 +1,204 @@
+body{
+    margin: 0px;
+}
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+p{
+    text-align: center;
+    line-height: 1.8;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(39, 12, 188);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 60px;
+}
+.navbar a{
+    color: bisque;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: rgb(8, 178, 234);
+}
+.navbar li{
+    float: none;
+}  
+
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 50%;
+    height: 50%;
+}
+.img{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+}
+.author {
+    text-align: center;
+    font-style: italic;
+    color: gray;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+
+
+#about{
+    padding: 80px 10%;
+    background-color: #f5f5f5;
+}
+
+#about h2 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.8;
+}
+
+.about-content h3 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.about-content p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.gallery-item {
+    text-align: center;
+}
+.gallery-item > img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: 200px;
+    object-fit: cover;
+}
+.gallery-item1 {
+    text-align: center;
+}
+.gallery-item1 > img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: 600px;
+    object-fit: cover;
+}
+
+
+.gaming-photos {
+    display: flex;
+    gap: 5px;
+}
+.gaming-photos img {
+    width: 33.33%;
+    height: 100px;
+    object-fit: cover;
+}
+
+
+#contact {
+    padding: 80px 10%;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+#contact h2 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.contact-intro {
+    margin-bottom: 30px;
+    color: gray;
+}
+.contact-info {
+    margin-bottom: 40px;
+    line-height: 2;
+}
+.contact-form {
+    max-width: 500px;
+    margin: auto;
+}
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+.contact-form button {
+    padding: 12px 30px;
+    background-color: rgb(39, 12, 188);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact-form button:hover {
+    background-color: rgb(8, 178, 234);
+}
+
+
+.skills, .goals, .career {
+    padding: 50px 10%;
+    text-align: center;
+}
+.skills h2, .goals h2, .career h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.skill-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.skill-item {
+    width: 250px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.skill-item p, .goals p, .career p {
+    line-height: 1.8;
+}
+
+
+.goals {
+    background-color: #f5f5f5;
+}
